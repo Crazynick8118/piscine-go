@@ -1,5 +1,7 @@
 package main
+
 import "github.com/01-edu/z01"
+
 func main() {
 		 i :=97 
 		 for i <= 122 {
