@@ -9,9 +9,16 @@ func PrintComb() {
 				z01.PrintRune(i)
 				z01.PrintRune(k)
 				z01.PrintRune(j)
+				if j <= '6' {
+					z01.PrintRune(44)
+					z01.PrintRune(' ')
+
+				}
 			}
 
 		}
 	}
-	z01.PrintRune('\n')
+	{
+		z01.PrintRune('\n')
+	}
 }
